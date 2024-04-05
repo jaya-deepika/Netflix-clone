@@ -1,0 +1,120 @@
+.navbarSection {
+    display: flex;
+    align-items: center;
+    margin-left: 105px;
+    margin-right: 105px;
+    padding: 24px 48px;
+
+}
+.optionbox{
+    color: black;
+}
+#languagesSelect{
+    color: #ffffff;
+}
+.buttons {
+    margin-left: auto;
+    
+}
+
+.navbrand svg {
+    width: 148px;
+    height: 40px;
+    fill: #e50914;
+}
+.language_drop_down {
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    line-height: 20px;
+}
+  
+  .signin__button {
+    background-color:var(--primary-color);
+    border: 1px solid var(--primary-color);
+    color: white;
+    font-weight: bold;
+    padding: 0.25rem 0.5rem;
+    border-radius: 4px;
+    height: 35px;
+    width: 100px;
+    font-size: 14px;
+  }
+  .hiiplaybuttonicon{
+    font-size: 20px;
+  }
+.navbar_nav_items{
+    display: flex;
+    gap:10px;
+}
+
+
+@media(max-width:960px) {
+    .navbrand svg {
+        width: 89px;
+        height: 24px;
+    }
+    .navbarSection {
+        margin: 0px;
+        padding: 24px 24px;
+    }
+}
+
+@media(max-width: 768px) {
+    .navbarSection {
+        margin: 0px;
+        padding: 24px 24px;
+    }
+}
+
+@media(max-width: 480px) {
+    .navbarSection {
+        padding: 24px 20px;
+    }
+
+    .navbrand svg {
+        width: 89px;
+        height: 24px;
+ 
+    }
+
+    .languageButton,
+        .signInButton {
+    width: 76px;
+    height: 32px;
+}
+
+}
+@media(max-width: 456px) {
+    .navbarSection {
+       padding: 24px 8px;
+    }
+}
+
+@media(max-width: 350px) {
+    .navbarSection {
+        margin: 0px;
+        padding: 24px 0px;
+        display: flex;
+        flex-direction: column; 
+       
+        
+    }
+    .navbrand{
+        width: 100%;
+    }
+    .buttons {
+        display: flex;
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,65 @@
+
+.welcome-page-section-two{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #333;
+    font-family: 'Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif';
+    margin-bottom: 150px;
+}
+.welcome-two-second-form{
+    margin-top: 40px;
+    width: 450px;
+    padding: 20px;
+
+}
+.stepname{
+    color: #333;
+}
+.welcome-two-second-form h1{
+    margin: 10px 0px;
+    color: #333;
+    font-weight: 600;
+    font-size: 34px;
+}
+.welcome-two-second-form p{
+    margin: 10px 20px 10px 0px;
+    color: #333;
+    font-size: 18px;
+}
+.welcome-form p{
+    color: #333;
+}
+.welcome-form{
+    width: 450px;
+    padding: 8px 20px 10px;
+}
+.inputpasswordwelcome,.nextwelcomebutton{
+    min-height: 54px;
+    width: 440px;
+    border-radius: 2px;
+    border: 0.1px solid gray;
+    line-height: 24px;
+    border-radius: 4px;
+    transition: border-color 0.3s ease;
+    font-size: 16px;
+    color: #333;
+    padding: 5px;
+    outline-color: #0071eb;
+}
+.welcome-link{
+    color: #0071eb;
+}
+.welcome-link-p{
+    margin-top: 18px;
+    margin-bottom: 20px;
+}
+.nextwelcomebutton{
+    min-height: 64px;
+    color: #fff;
+    background-color: #e50914;
+    font-size: 24px;
+    border: none;
+}

@@ -1,0 +1,92 @@
+
+.faqSection {
+    padding: 50px 200px;
+  }
+  
+  .faqSection h2 {
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .accordion {
+    margin-bottom: 0.5rem;
+    cursor: pointer;
+    color: white;
+  }
+  
+
+  
+  .accordion.active .accordion-content {
+    max-height: 1000px;
+  }
+  
+  .accordion-header {
+    padding: 2rem;
+    background-color: #2D2D2D;
+    
+
+  }
+  
+  .accordion-header:hover {
+    background-color: #414141;
+  }
+  .accordion-summary {
+    display: flex;
+    align-items: center;
+  }
+  
+  .expand-icon {
+    font-size: 24px;
+    margin-left: auto;
+  }
+  .accordion-content{
+    display: none;
+  }
+  .accordion-content-show{
+    margin-top: 1px;
+    padding: 2rem;
+    background-color: #2D2D2D;
+    transition: max-height 0.2s ease-out;
+  }
+  
+  .question {
+    font-size: 1.5rem;
+    color: white;
+  }
+  
+  .answer {
+    font-size: 1.5rem;
+  }
+  
+  .faqP {
+    font-size: 1.5rem;
+    text-align: center;
+    color: white;
+    margin-top: 30px;
+  }
+  
+  .emailEnterDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 18px 0px;
+    
+  }
+  
+  .homePageEmailInput {
+    padding-left: 10px;
+  }
+  
+  @media (max-width: 960px) {
+    .emailEnterDiv,
+    .faqSection {
+      padding: 30px 50px;
+    }
+  
+    .accordion {
+      padding: 0.5rem;
+    }
+  }
+  

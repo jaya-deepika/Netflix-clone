@@ -1,0 +1,33 @@
+
+.LoginFooter-main{
+    color: #737373;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 60px;
+    gap: 20px;
+    background-color: #f3f3f3;
+    
+}
+.LoginContact p,span{
+    color: #333;
+}
+.LoginLinks{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+li{
+    padding-top: 20px;
+    list-style: none;
+    font-size: 13px;
+    font-weight: 500px;
+    color: #333;
+}
+li:hover{
+    text-decoration: underline;
+}
+.phonecall{
+    color: #333;
+}

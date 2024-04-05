@@ -1,0 +1,87 @@
+.footerContainer {
+    color: white;
+    padding: 50px 150px;
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+  .phonecall {
+    text-decoration: underline;
+    cursor: pointer;
+    color: white;
+  }
+  .footerLinks {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  
+  }
+  
+  .footerLinks ul {
+    padding: 0px;
+    margin-right: 12px;
+    max-width: 200px;
+  }
+  
+  
+  
+  .footerContainer li {
+    list-style: none;
+    font-size: 0.88rem;
+    text-decoration: underline;
+    margin-bottom: 16px;
+    cursor: pointer;
+    color: white;
+  }
+  
+  .netflixFooterbrand {
+    margin-top: 16px;
+    font-size: 16px;
+  }
+  
+  @media(max-width: 960px) {
+    .footerContainer {
+      padding: 50px 40px;
+    }
+    .footerLinks {
+      width: 80%;
+      margin-top: 40px;
+    }
+   
+  }
+  @media(max-width: 599px) {
+    .footerContainer {
+      padding: 50px 30px;
+      border-top: 1px solid gray;
+    }
+    .footerLinks {
+      width: 60%;
+      margin-top: 40px;
+      
+    }
+   
+  }
+  
+  
+  .language_drop_down {
+    background: transparent;
+    border: none;
+    color: white;
+    font-size: 16px;
+    line-height: 20px;
+  }
+  
+  .language_drop_down:focus {
+    outline: none;
+    color: black;
+  
+  }
+  .dropdown__container {
+    border: 1px solid white;
+    padding: 0.4rem;
+    border-radius: 2px;
+    background: rgba(0, 0, 0, 0.4);
+  }
+  .nav{
+    max-width: 120px;
+    border-radius: 2px;
+  }

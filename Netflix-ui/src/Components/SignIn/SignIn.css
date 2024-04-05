@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* overflow: hidden; */
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+
+}
+.main{
+    width: 100vw;
+    position: relative;
+    background-size: cover;
+    object-fit: fill;
+    background-repeat: no-repeat;
+    background: linear-gradient( rgba(0,0,0,0.8), rgba(0,0,0,0.5), rgba(0,0,0,0.9)),url('https://assets.nflxext.com/ffe/siteui/vlv3/5e16108c-fd30-46de-9bb8-0b4e1bbbc509/29d8d7d7-83cc-4b5f-aa9b-6fd4f68bfaa6/IN-en-20240205-popsignuptwoweeks-perspective_alpha_website_large.jpg');
+
+}
+.signNavbar{
+  background-color: transparent;
+  display:flex ;
+  padding: 24px 32px;
+}
+.navimage{
+  margin: -8px 0px 0px -16px;
+  padding-left: 150px;
+
+} 
+.navimage svg{
+  width: 148px;
+  height: 40px;
+  fill: #e50914;;
+}
+.SigninMain{
+    flex-grow: 1;
+    margin: 0 auto;
+    padding:0 5% ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    margin-bottom: 20px;
+
+}
+.signinComponent{
+    background-color: rgba(0,0,0,0.7);
+    max-width: 450px;
+    padding: 48px 68px;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.headersection{
+    margin: 0;
+    padding: 0;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    font-size: 2 rem;
+    font-weight: 700;
+}
+.headersection h1{
+    margin-bottom: 28px;
+}
+.formstyle{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.SigninPageInput{
+    height: 54px;
+    width: 100%;
+    font-size: 16px;
+    background-color: transparent;
+    color: #fff;
+    border: 0.1px solid gray;
+    line-height: 24px;
+    border-radius: 4px;
+    outline-color: rgba(245, 245, 245, 0.64);
+    transition: border-color 0.3s ease;
+    outline-offset: 3px;
+    padding-left: 20px;
+}
+::-ms-reveal {
+  filter: invert(100%);
+}
+.SigninPageInput::placeholder{
+    font-size: 16px;
+    color: rgba(245, 245, 245, 0.64);
+    padding-left: 14px;
+}
+.SigninPageInput:focus::placeholder {
+    transform: translateY(-80%);
+    font-size: 14px;
+    color: #fff;
+    
+  }
+
+  .SigninPageInput:not(:placeholder-shown) + .buttonsection::placeholder {
+    transform: translateY(-100%);
+    font-size: 12px;
+    color: #888;
+  }
+  .buttonsection{
+    width: 100%;
+    height: 36px;
+    background-color: #e50914;
+    font-size: 16px;
+    line-height: 12px;
+    vertical-align: top;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 12px 24px;
+    
+  }
+  #buttonone{
+    background-color: #808080;
+    opacity: 0.6;
+  }
+  .linking{
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  .linking:hover{
+    text-decoration: underline;
+  }
+  .footer{
+    margin-top: 20px;
+  }
+  .checksection{
+    margin: 20px 0px;
+  }
+  .checksection input{
+    width: 1.25rem;
+    height: 1.25rem;
+  }
+  .checksection label{
+    font-size: 16px;
+    padding-left: 5px;
+  }
+  .Signupsection{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+  }
+  #linked {
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 700;
+  }
+  .parasection{
+    font-size: 13px;
+    margin-top: 11px;
+    color: #8c8c8c; 
+    /* padding-bottom: 100px;  */
+  } 
+
+  .parasection .learn{
+      color: #0071eb;
+  }
+  .error{
+    color:red;
+    width: 100%;
+  }
+  @media(max-width: 960px){
+    .navimage{
+      padding-left: 30px;
+    }
+    .navimage svg{
+      width: 100px;
+      height: 30px;
+    }
+  }
+  @media(max-width: 500px){
+    .main{
+      background:black;
+    }
+    .signinComponent{
+      max-width: 400px;
+      padding: 3px;
+  }
+  .SigninMain{
+   margin-bottom: 50px;
+    padding: 0;
+  }
+  }
+  @media(max-width: 480px){
+    
+    .signinComponent{
+      max-width: fit-content;
+      padding: 3px;
+  }
+  .SigninMain{
+   margin-bottom: 50px;
+    padding: 0;
+  }
+  }

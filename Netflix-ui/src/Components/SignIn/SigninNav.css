@@ -1,0 +1,14 @@
+.signNavbar{
+    background-color: transparent;
+    display:flex ;
+    padding: 24px 32px;
+    margin: 0px -64px 0px 0px;
+}
+.navimage{
+    margin: -8px 0px 0px -16px;
+} 
+.navimage svg{
+    width: 148px;
+    height: 40px;
+    fill: #e50914;;
+}

@@ -1,0 +1,287 @@
+/* banner */
+:root{
+    --primary-color:rgb(193, 17, 25);
+    --secondart-color:rgb(0,0,0);
+    color:white;
+  
+  }
+    
+  .features{
+      border-top: 8px solid #444;
+      background-color: var(--secondart-color);
+      padding: 70px 45px;
+     
+    }
+    
+    /* .container{ */
+     /* display: flex; */
+     /* justify-content: center; */
+     /* align-items: center; */
+     /* max-width: 1100px; */
+     /* margin: 0 auto; */
+     /* height: 100vh; */
+    /* } */
+    .container1{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      max-width: 1100px;
+      margin: 0 auto;
+      height: 75vh;
+     }
+   
+   .des {
+    width: 50%;
+   }
+    .des h2{
+    font-size: 48px;
+    font-weight: 900;
+    margin-top: 25px;
+   
+    }
+    .des p{
+      font-size: 24px;
+      /* font-weight: 400; */
+      margin-top: 20px;
+     
+    }
+    .tvclip{
+      width: 45%;
+     position: relative;
+     max-width: 640px;
+     margin: auto;
+  
+    }
+    .tvclip img{
+      width: 100%;
+      max-width: 640px;
+      z-index: 10;
+      position: relative;
+     
+    }
+    
+    .poster{
+      position: absolute;
+      top: 48%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+      width: 87%;
+      height: 55%;
+    }
+  
+  
+    /* phone features */
+    
+   .phone{
+    border-top: 8px solid #444;
+      background-color: var(--secondart-color);
+      padding: 20px;
+      display: flex;
+   }
+   .des1{
+    width: 70%;
+   }
+   .container2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1100px;
+    margin: 0 auto;
+    height: 85vh;
+   }
+   .phone .container2{
+    justify-content: space-between;
+   }
+   .mobile{
+    position: relative;
+   }
+    .des1 h2{
+      font-size: 48px;
+      font-weight: 900;
+      text-wrap: wrap;
+    }
+    .des1  p{
+      font-size: 24px;
+      text-align: left;
+      margin-top: 10px;
+    }
+    /* .page3{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  
+    } */
+    .mobile{
+      position: relative;
+    }
+    .mobile .img{
+      width: 100%;
+      max-width: 640px;
+    }
+    .stranger{
+      display: flex;
+      align-items: center;
+      background-color: black;
+      padding: 10px;
+      border-radius: 10px;
+      border:2px solid hsl(0, 0%, 100%,.25) ;
+      position: absolute;
+      left: 50%;
+      bottom: 5%;
+  transform: translate(-50%);
+    }
+    .stranger img{
+      width: 50px;
+      margin-right: 10px;
+    }
+    .stranger span{
+      color: #0071eb;
+      margin-right:50px ;
+    }
+  
+  /* devices */
+  .device{
+    background-color: var(--secondart-color);
+    border-top: 8px solid #444;
+  padding-top: 50%;
+  
+  }
+  .devicesclip{
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    max-width: 63%;
+    max-height: 47%;
+    top:34%;
+    transform: translate(-50%,-50%);
+  }
+  
+  /* kids banner */
+  .phone .pic{
+    max-width: 45%;
+   
+  }
+  /* .child{
+    background-color: var(--secondart-color);
+    border-top: 8px solid #444;
+  padding-top: 50%;
+  
+  } */
+  .des1{
+    width: 55%;
+    text-align: left;
+  }
+  
+  
+  
+  
+    /* media query */
+    /* @media (max-width:1450px){
+  
+    } */
+    @media (max-width:959px){
+      .container1,.container2{
+        display: block;
+        text-align: center;
+        padding: 0 30px;
+      }
+      
+      .tvclip, .des{
+        width: 100%;
+      }
+      .mobile .des1{
+        width: 100%;
+      }
+      .des h2{
+        margin: 0;
+        font-size: 2rem;
+        font-weight: 700;
+        /* margin-top: 10px; */
+      }
+      .des1 h2{
+        margin: 0;
+        font-size: 2rem;
+        font-weight: 700;
+      }
+      .tvclip img{
+        width: 88%;
+        
+      }
+      
+      .des p{
+        margin: 1rem 0 0;
+       
+      font-size: 1.125rem;
+      font-weight: 400;
+      }
+       
+      .des1 p{
+        margin: 1rem 0 0;
+       
+      font-size: 1.125rem;
+      font-weight: 400;
+      }
+      .phone .des1{
+        width: 100%;
+        text-align: center;
+        margin-top: 30px;
+      }
+      .phone .container2{
+        display: flex;
+        flex-direction: column-reverse;
+      }
+      .mobile img{
+        max-width: 85%;
+      }
+     .phone .pic{
+      max-width: 68%;
+      margin-bottom: 30px;
+     }
+    
+    } 
+    @media (max-width:550px){
+      h2{
+        font-size: 1.625rem;
+      }
+      .des p{
+        font-size: 1.125rem;
+      }
+      .des1 p{
+        font-size: 1.125rem;
+      }
+      .features,.phone{
+        padding: 50px 0;
+      }
+     .mobile img{
+      max-width: 100%;
+     }
+     .stranger{
+      font-size: 13px;
+      width: 65%;
+     }
+     .stranger img{
+      width: 34px;
+     }
+     .stranger .download{
+     margin-right: 50px;
+     }
+     .stranger p{
+      padding-left: 5px;
+     }
+    .mobile .des1 p{
+      /* padding-left: 50px; */
+      text-wrap: wrap;
+    }
+    .phone .pic{
+      max-width: 100%;
+      margin-bottom: 30px;
+     }
+    }
+  
+  
+  /* @media (max-width:435px){
+    .stranger{
+      max-width: 80%;
+      
+    }
+  } */

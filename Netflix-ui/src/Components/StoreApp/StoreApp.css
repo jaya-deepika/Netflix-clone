@@ -1,0 +1,57 @@
+.StoreAppMAin{
+    background-color: black;
+}
+.shuffle{
+    width: 100%;
+    height: 110vh;
+    filter: 'brightness(180%)'
+    
+}
+.DataStoreapp{
+    position: absolute;
+    z-index: 20;
+    bottom: 200px;
+    width: 800px;
+    margin-left: 40px;
+    z-index: 2;
+}
+.DataStoreapp h1{
+    color: white;
+    font-weight: 900;
+    font-size: 50px;
+}
+.DataStoreapp h2{
+    color: white;
+    font-size: 20px;
+    margin-top: 25px;
+}
+.slider{
+   top: 10px;
+}
+.buttons{
+    margin-top: 25px;
+    display: flex;
+    gap: 30px;
+}
+.hiplay,.infoicons{
+    width: 120px;
+    height: 50px;
+    border-radius: 4px;
+    border: none;
+    font-size: 20px;
+    justify-content: center;
+    color: black;
+}
+.infoicons{
+    width: 140px;
+    color: white;
+    background-color: gray;
+}
+
+.fa-play{
+    color: black;
+    margin-right: 10px;
+}
+ button > svg {
+    vertical-align: middle;}
+     /* Align the icons vertically within the buttons */

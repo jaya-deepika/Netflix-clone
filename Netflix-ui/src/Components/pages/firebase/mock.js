@@ -1,0 +1,1 @@
+export const mock='https://65ddc452dccfcd562f55697a.mockapi.io/netflix'

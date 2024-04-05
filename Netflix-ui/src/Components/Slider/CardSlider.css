@@ -1,0 +1,43 @@
+.SliderContainer{
+    position: relative;
+    padding: 2rem 0;
+    
+}
+.SliderContainer h3{
+    color: white;
+    padding: 20px;
+}
+.flex{
+    display: flex;
+    gap: 1rem;
+    margin-left: 50px;
+    transform: translateX(0px);
+    transition: 0.3s ease-in-out;
+}
+.slider-action{
+    position: absolute;
+    z-index: 99;
+    height: 50%;
+    top: 150px;
+    bottom: 0px;
+    width: 50px;
+    transform: 0.3s ease-in-out;
+    opacity: 0;
+    
+}
+.SliderContainer:hover .slider-action,
+.SliderContainer .showControls .slider-action {
+    opacity: 1;
+}
+svg{
+    font-size: 2rem;
+}
+.left{
+    left: 0;
+}
+.right{
+    right: 0;
+}
+.none{
+    display: none;
+}

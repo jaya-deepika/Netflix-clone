@@ -1,0 +1,16 @@
+
+.MoviesContainer {
+    position: relative;
+  }
+  
+  .Navfirst {
+    position: absolute;
+    
+  }
+  
+  .MovieNavsecond {
+    position: relative; 
+    z-index: 1; 
+    top: 75px;
+  }
+  
